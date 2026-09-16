@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useState } from 'react'
 import { createRoot } from 'react-dom/client'
 import './styles.css'
 
-const company = { name:'RAPID AIR LIMITED', email:'RAPIDAIRLIMITED@outlook.com', address:'122-126 Guangdong Road, Tsim Sha Tsui, Yau Tsim Mong District, Hong Kong Special Administrative Region' }
+const company = { name:'RAPID AIR LIMITED', email:'RAPIDAIRLIMITED@outlook.com', address:'RM03, 24/F, HO KING COMM CTR, 2-16 FA YUEN ST, MONG KOK, KOWLOON, HONG KONG' }
 const imagePool = [
   'photo-1616486338812-3dadae4b4ace','photo-1600566753190-17f0baa2a6c3','photo-1618221195710-dd6b41faaea6','photo-1615874694520-474822394e73','photo-1556228720-195a672e8a03','photo-1586023492125-27b2c045efd7','photo-1617104678098-de229db51175','photo-1524758631624-e2822e304c36','photo-1555041469-a586c61ea9bc','photo-1505693416388-ac5ce068fe85','photo-1519710164239-da123dc03ef4','photo-1493663284031-b7e3aefcae8e','photo-1540932239986-30128078f3c5','photo-1598300042247-d088f8ab3a91','photo-1513506003901-1e6a229e2d15','photo-1494438639946-1ebd1d20bf85','photo-1513694203232-719a280e022f','photo-1517705008128-361805f42e86','photo-1505691938895-1758d7feb511','photo-1518005020951-eccb494ad742']
 const categories = [
